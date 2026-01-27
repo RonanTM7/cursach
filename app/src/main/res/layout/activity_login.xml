@@ -8,6 +8,14 @@
     android:padding="16dp"
     tools:context=".LoginActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вход"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
     <EditText
         android:id="@+id/editTextEmail"
         android:layout_width="match_parent"
@@ -31,10 +39,13 @@
         android:text="Login"
         android:layout_marginBottom="8dp"/>
 
-    <Button
-        android:id="@+id/buttonRegister"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/textViewRegister"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Register"/>
+        android:text="Нет аккаунта? Зарегистрируйтесь"
+        android:textColor="@android:color/holo_blue_dark"
+        android:clickable="true"
+        android:focusable="true" />
 
 </LinearLayout>
